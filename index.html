@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>MinhasSeriesFvoritas</title>
    <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" href="./navalha (2).png">
 </head>
+
 <body>
    <!-- Criar uma página HTML descrevendo suas preferências de coisas que você gosta de assistir (séries, animes, documentários, filmes) e
    depois crie uma lista ordenada de itens que você deseja assistir ainda este ano. De background da página, coloque uma cena preferida
    do seu filme/série/anime. Ao final do site, peça para ao leitor de sua página inserir sugestões para você assistir, inserindo o nome 
    do usuário, a categoria e o nome da indicação. -->
+
+   <header>
+      <h1>Minhas Series e filmes favotiros</h1>
+   </header>
+   <main>
+      <section class="container">
+         <ul>
+            <h2>Series</h2>
+            <li>Peaky Blinders</li>
+            <li>Friends</li>
+            <li> How I met your mother</li>
+         </ul>
+         <ul>
+            <h2>Filmes</h2>
+            <li>Tropa de Elite</li>
+            <li>As Branquelas</li>
+            <li>Doutor Estranho</li>
+         </ul>
+      </section>
+      <section id="assistirNoFuturo">
+         <h2 id="futuroTitle">O que gostaria de ver ainda esse ano:</h2>
+         <ol>
+            <li>Vennon</li>
+            <li>Star wars</li>
+            <li>Corringa</li>
+         </ol>
+      </section>
+      <section id="formularioDeIndicacao">
+         <form id="form">
+            <label>Indique uma série ou filme:</label><br>
+            <input type="text" placeholder="Escreva seu nome:">
+            <select name="select">
+               <option>Filme</option>
+               <option selected>Série</option>
+            </select>
+            <input type="text" placeholder="nome do Filme ou Série :">
+         </form>
+         <p>Feiro pelo Programador em formação Victor Emanuel</p>
+      </section>
+   </main>
 </body>
 </html>
