@@ -1,96 +1,113 @@
-@font-face {
-   font-family: 'Leander';
-   src: url('./fonts/Leander.ttf') format('truetype');
-   
- }
-*{
-   margin: 0;
-   padding: 0;
-   font-family: 'Leander', Arial, sans-serif;
-
-}
-
-body{
-   background-image: url("https://i.pinimg.com/564x/dc/f8/90/dcf8900f669a6387d0d6aa4584913baa.jpg");
-   background-position:top bottom ;
-   background-size: contain;
-   width:100%;
-   height: 100vh;
-   position: relative;
 
 
-}
-
-li{
-   font-size: 22px;
-}
-
-
-header h1{
-   margin-top: 20px;
+body {
+   background-image: url("https://pipocasclub.com.br/wp-content/uploads/2021/01/peaky-blinders-sangues-apostas-e-navalhas-fonte-reproducao-1588019153164_v2_1920x1080.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   color: rgb(249, 249, 249);
    text-align: center;
-   font-size: 38px;
-   color:rgb(247, 239, 239);
+   font-weight: bold;
+
 
 
 }
-.container{
+
+li {
+   font-size: 24px;
+}
+
+
+header h1 {
+   margin-top: 20px;
+   font-size: 30px;
+
+
+}
+
+.container {
    margin-top: 20px;
    display: flex;
    justify-content: space-around;
    align-items: center;
    width: 100%;
-   color:rgb(247, 239, 239);
 
 }
-.container h2{
-   font-size: 26px;
+
+.container div h2 {
+   font-size: 30px;
    margin-bottom: 20px;
-
-}
-#assistirNoFuturo{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   color:rgb(247, 239, 239);
-
-}
-#futuroTitle{
    text-align: center;
-   margin-top: 20px;
-   color:rgb(247, 239, 239);
 
 }
-#formularioDeIndicacao{
-  position: absolute;
-  bottom: 20px;
-  right: 35%;
-  color:rgb(247, 239, 239);
+.container div {
+   text-align: start;
+}
+.assistirNoFuturo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
 
 }
-#form{
+
+#futuroTitle {
+   margin: 20px 0;
+   font-size: 30px;
+
+
+}
+
+#formularioDeIndicacao {
+   margin-top: 50px;
+
+}
+
+#form {
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
 }
-#form select{
-   margin-bottom: 10px;
-   width: 175px;
-   cursor: pointer;
-   padding: 5px 15px;
-
-}
-#form input{
-   margin-bottom: 10px;
-   padding: 5px;
-   cursor: pointer;
-
+#form label{
+   font-size: 28px;
+   margin-bottom: 20px;
 }
 
+#form select {
+   cursor: pointer;
+   margin-bottom: 10px;
+   width: 273px;
+   padding: 10px 15px;
 
+}
 
+#form input {
+   margin-bottom: 10px;
+   padding: 10px 15px;
+   cursor: pointer;
 
+}
+.contact{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
-   
+}
+.contact a{
+   margin-right: 20px;
+}
+
+@media screen and (max-width:767px) {
+
+   .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .container div{
+      margin-top: 20px;
+   }
+  
+}
